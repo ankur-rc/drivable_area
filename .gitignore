@@ -1,0 +1,4 @@
+SqueezeSeg/
+experiments/*/logs
+bdd_custom/
+.ipynb_checkpoints
