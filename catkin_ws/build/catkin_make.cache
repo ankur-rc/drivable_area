@@ -1,0 +1,2 @@
+catkin_simple:drivable_area
+-DCATKIN_DEVEL_PREFIX=/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="namespace" default="drivable_area" />
+    <node name="drivable_area" pkg="drivable_area" type="road_segmentation_node.py" output="screen">      
+        <remap from="camera" to="$(arg namespace)/camera"/>
+        <remap from="segmentation" to="$(arg namespace)/segmentation"/>
+        <remap from="segmentation_overlay" to="$(arg namespace)/segmentation_overlay"/>
+        
+        <param name="model_path" value="$(find drivable_area)/models/model.h5"/>
+        <!-- <param name="target_size" value="320, 240"/> -->
+        <param name="crop_size" value="240,480"/>
+        <param name="prediction_threshold" value="0.9"/>
+
+  </node>
+
+</launch>

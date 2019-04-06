@@ -1,0 +1,6 @@
+set(drivable_area_SETUP_PY_VERSION "0.0.0")
+set(drivable_area_SETUP_PY_SCRIPTS "")
+set(drivable_area_SETUP_PY_PACKAGES "RoadSegmentation")
+set(drivable_area_SETUP_PY_PACKAGE_DIRS "src/RoadSegmentation")
+set(drivable_area_SETUP_PY_MODULES "")
+set(drivable_area_SETUP_PY_MODULE_DIRS "")
