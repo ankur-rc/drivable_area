@@ -1,8 +1,0 @@
-prefix=/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/devel
-
-Name: catkin_simple
-Description: Description of catkin_simple
-Version: 0.1.1
-Cflags: 
-Libs: -L/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/devel/lib 
-Requires: catkin

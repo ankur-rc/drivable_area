@@ -1,8 +1,0 @@
-prefix=/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/install
-
-Name: drivable_area
-Description: Description of drivable_area
-Version: 0.0.0
-Cflags: 
-Libs: -L/media/ankurrc/new_volume/usl/drivable_area_project/catkin_ws/install/lib 
-Requires: 
